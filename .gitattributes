@@ -1,0 +1,10 @@
+# Force Unity text files to use LF in repo
+*.cs        text eol=lf
+*.shader    text eol=lf
+*.cginc     text eol=lf
+*.compute   text eol=lf
+*.json      text eol=lf
+*.yml       text eol=lf
+*.yaml      text eol=lf
+*.asset     text eol=lf
+*.meta      text eol=lf
