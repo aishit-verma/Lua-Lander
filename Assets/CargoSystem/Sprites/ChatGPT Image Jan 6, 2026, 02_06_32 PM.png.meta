@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 296e317335ad26d49ae8099e659630ae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3953259219707810236
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_0
+  - first:
+      213: -8943662548667361284
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_1
+  - first:
+      213: -9207204290896659389
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_2
+  - first:
+      213: 4945967546565182868
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_3
+  - first:
+      213: -5172576833931612908
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_4
+  - first:
+      213: 3333605045963998665
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_5
+  - first:
+      213: 7137973191230749944
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_6
+  - first:
+      213: -2735423172140462449
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_7
+  - first:
+      213: -3265950270529621837
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_8
+  - first:
+      213: 1219253131299960168
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_9
+  - first:
+      213: 6668075559896487991
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_10
+  - first:
+      213: 8473922578992471837
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_11
+  - first:
+      213: -9124830017300258283
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_12
+  - first:
+      213: 1183606979008377466
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_13
+  - first:
+      213: -20161618742521838
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_14
+  - first:
+      213: -2201557064259502492
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_15
+  - first:
+      213: 2574595144139649966
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_16
+  - first:
+      213: -4039790649249524774
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_17
+  - first:
+      213: -8539683856245996112
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_18
+  - first:
+      213: -4594825543907189384
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_19
+  - first:
+      213: -89275627148257144
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_20
+  - first:
+      213: -3997026784104125443
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_21
+  - first:
+      213: -828669516111180137
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_22
+  - first:
+      213: -4200444665924371211
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_23
+  - first:
+      213: -7185926529332807039
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_24
+  - first:
+      213: -3620953643217286460
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_25
+  - first:
+      213: 8119282512508814825
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_26
+  - first:
+      213: 1569111873181084217
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_27
+  - first:
+      213: -6408763051130551463
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_28
+  - first:
+      213: 177788537131826844
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_29
+  - first:
+      213: 8151597089695882043
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_30
+  - first:
+      213: -6383364121637175073
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_31
+  - first:
+      213: 5469623877249410871
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_32
+  - first:
+      213: 8786483690421845297
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_33
+  - first:
+      213: -4095545887604790739
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_34
+  - first:
+      213: -379187430905775929
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_35
+  - first:
+      213: 7628749990666934722
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_36
+  - first:
+      213: 4985034526959371664
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_37
+  - first:
+      213: 6016467310061626169
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_38
+  - first:
+      213: 3027266242988717047
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_39
+  - first:
+      213: 8305058181300998165
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_40
+  - first:
+      213: -3076161582214756238
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_41
+  - first:
+      213: -4321660486346625836
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_42
+  - first:
+      213: 4165535968415067946
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_43
+  - first:
+      213: -9146076552406590141
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_44
+  - first:
+      213: 8334299520806183479
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_45
+  - first:
+      213: 6936387621857934846
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_46
+  - first:
+      213: -1117280163416209741
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_47
+  - first:
+      213: 2220386354653191584
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_48
+  - first:
+      213: -273425822017241748
+    second: ChatGPT Image Jan 6, 2026, 02_06_32 PM_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChatGPT Image Jan 6, 2026, 02_06_32 PM_49
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 24
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d3e3ed9a8943cf0800000000000000
+      internalID: -273425822017241748
+      vertices:
+      - {x: 0, y: 0}
+      - {x: 7, y: 0}
+      - {x: 0, y: 9}
+      - {x: 7, y: 9}
+      indices: 000000000200000001000000010000000200000003000000
+      edges:
+      - {x: 0, y: 1}
+      - {x: 0, y: 2}
+      - {x: 1, y: 3}
+      - {x: 2, y: 3}
+      weights:
+      - 'weight[0]': 1
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 1
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 1
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 1
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+    - serializedVersion: 2
+      name: Cargo
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 369
+        width: 252
+        height: 457
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 116, y: 246, z: 127, w: 127}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones:
+      - name: bone_1
+        guid: 2073c33184544cd428a6b9a807ffe0bb
+        position: {x: 119.53914, y: 450.73547, z: 0}
+        rotation: {x: 0, y: 0, z: -0.7025304, w: 0.7116538}
+        length: 117.832436
+        parentId: -1
+        color:
+          serializedVersion: 2
+          rgba: 4278190335
+      - name: bone_2
+        guid: ce66500043ea5d44ab52b4cf73e7d381
+        position: {x: 117.83242, y: 0.000005396542, z: 0}
+        rotation: {x: 0, y: 0, z: -0.014515595, w: 0.9998947}
+        length: 23.567575
+        parentId: 0
+        color:
+          serializedVersion: 2
+          rgba: 4278255615
+      - name: bone_3
+        guid: f3158ca1d39881a4ba53889e97cbf9cc
+        position: {x: 23.56765, y: 0.000037338275, z: 0}
+        rotation: {x: 0, y: 0, z: 0.008064036, w: 0.9999675}
+        length: 19.00366
+        parentId: 1
+        color:
+          serializedVersion: 2
+          rgba: 4278255360
+      - name: bone_4
+        guid: 2aaeb1d3dd0e74b4d9d07627b024e71c
+        position: {x: 19.003689, y: 0.000043882963, z: 0}
+        rotation: {x: 0, y: 0, z: 0, w: 1}
+        length: 18.243406
+        parentId: 2
+        color:
+          serializedVersion: 2
+          rgba: 4294967040
+      - name: bone_5
+        guid: 894f203fbb365fd45b6480d6a0995afe
+        position: {x: 18.243431, y: 0.000040053426, z: 0}
+        rotation: {x: 0, y: 0, z: 0.0075762314, w: 0.99997133}
+        length: 25.087654
+        parentId: 3
+        color:
+          serializedVersion: 2
+          rgba: 4294901760
+      - name: bone_6
+        guid: fd99d428cc036ed40886172d31dd0ddf
+        position: {x: 25.08762, y: -0.000036241, z: 0}
+        rotation: {x: 0, y: 0, z: 0.019002102, w: 0.9998195}
+        length: 243.21019
+        parentId: 4
+        color:
+          serializedVersion: 2
+          rgba: 4294902015
+      spriteID: 3c49286ba66a33f45aa6655adae384e8
+      internalID: -480666191
+      vertices:
+      - {x: 135.08017, y: 1.5175691}
+      - {x: 251.862, y: 47.317993}
+      - {x: 248.717, y: 187}
+      - {x: 152.936, y: 235.578}
+      - {x: 132.841, y: 268.262}
+      - {x: 129.88, y: 313.565}
+      - {x: 139.307, y: 351.858}
+      - {x: 160.755, y: 376.755}
+      - {x: 169, y: 410.274}
+      - {x: 156.58301, y: 438}
+      - {x: 134.045, y: 452.169}
+      - {x: 104.688, y: 452.098}
+      - {x: 84, y: 437.548}
+      - {x: 74.091995, y: 415.182}
+      - {x: 76.445, y: 387.55402}
+      - {x: 89.703, y: 366.938}
+      - {x: 106.962, y: 330.08398}
+      - {x: 110.806, y: 285.445}
+      - {x: 106.871, y: 242.434}
+      - {x: 92.082, y: 236.132}
+      - {x: 2.1011677, y: 184.00948}
+      - {x: 0.2519989, y: 44.496994}
+      indices: 000000000200000001000000000000000300000002000000000000001300000003000000000000001400000013000000000000001500000014000000030000001200000004000000030000001300000012000000040000001100000005000000040000001200000011000000050000001000000006000000050000001100000010000000060000000f0000000700000006000000100000000f000000070000000e00000008000000070000000f0000000e000000080000000d00000009000000080000000e0000000d000000090000000d0000000a0000000a0000000c0000000b0000000a0000000d0000000c000000
+      edges:
+      - {x: 0, y: 1}
+      - {x: 0, y: 21}
+      - {x: 1, y: 2}
+      - {x: 2, y: 3}
+      - {x: 3, y: 4}
+      - {x: 4, y: 5}
+      - {x: 5, y: 6}
+      - {x: 6, y: 7}
+      - {x: 7, y: 8}
+      - {x: 8, y: 9}
+      - {x: 9, y: 10}
+      - {x: 10, y: 11}
+      - {x: 11, y: 12}
+      - {x: 12, y: 13}
+      - {x: 13, y: 14}
+      - {x: 14, y: 15}
+      - {x: 15, y: 16}
+      - {x: 16, y: 17}
+      - {x: 17, y: 18}
+      - {x: 18, y: 19}
+      - {x: 19, y: 20}
+      - {x: 20, y: 21}
+      weights:
+      - 'weight[0]': 1
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 5
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0.71685976
+        'weight[1]': 0.15660328
+        'weight[2]': 0.07882938
+        'weight[3]': 0.0477076
+        'boneIndex[0]': 5
+        'boneIndex[1]': 4
+        'boneIndex[2]': 3
+        'boneIndex[3]': 2
+      - 'weight[0]': 0.94217944
+        'weight[1]': 0.03162529
+        'weight[2]': 0.026195275
+        'weight[3]': 0
+        'boneIndex[0]': 5
+        'boneIndex[1]': 2
+        'boneIndex[2]': 1
+        'boneIndex[3]': 0
+      - 'weight[0]': 1
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 5
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0.7994869
+        'weight[1]': 0.20051314
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 4
+        'boneIndex[1]': 3
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0.65382946
+        'weight[1]': 0.34617057
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 2
+        'boneIndex[1]': 1
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 1
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 1
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 1
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 1
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 1
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 1
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 1
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 1
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 1
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 1
+        'weight[1]': 0
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 0
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0.9527948
+        'weight[1]': 0.047205187
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 1
+        'boneIndex[1]': 0
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0.5205682
+        'weight[1]': 0.4794318
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 2
+        'boneIndex[1]': 3
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0.9452975
+        'weight[1]': 0.054702513
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 4
+        'boneIndex[1]': 5
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0.6736633
+        'weight[1]': 0.19650954
+        'weight[2]': 0.096949145
+        'weight[3]': 0.032878082
+        'boneIndex[0]': 5
+        'boneIndex[1]': 4
+        'boneIndex[2]': 3
+        'boneIndex[3]': 2
+      - 'weight[0]': 0.9847396
+        'weight[1]': 0.015260406
+        'weight[2]': 0
+        'weight[3]': 0
+        'boneIndex[0]': 5
+        'boneIndex[1]': 3
+        'boneIndex[2]': 0
+        'boneIndex[3]': 0
+      - 'weight[0]': 0.76690894
+        'weight[1]': 0.1292106
+        'weight[2]': 0.07764862
+        'weight[3]': 0.026231967
+        'boneIndex[0]': 5
+        'boneIndex[1]': 4
+        'boneIndex[2]': 3
+        'boneIndex[3]': 2
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6c67b9f9fcc64bb428abdc4e53fa46e1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Cargo: -480666191
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_10: 6668075559896487991
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_11: 8473922578992471837
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_12: -9124830017300258283
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_13: 1183606979008377466
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_14: -20161618742521838
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_15: -2201557064259502492
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_16: 2574595144139649966
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_17: -4039790649249524774
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_18: -8539683856245996112
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_19: -4594825543907189384
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_2: -9207204290896659389
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_20: -89275627148257144
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_21: -3997026784104125443
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_22: -828669516111180137
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_23: -4200444665924371211
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_24: -7185926529332807039
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_25: -3620953643217286460
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_26: 8119282512508814825
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_27: 1569111873181084217
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_28: -6408763051130551463
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_29: 177788537131826844
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_3: 4945967546565182868
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_30: 8151597089695882043
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_31: -6383364121637175073
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_32: 5469623877249410871
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_33: 8786483690421845297
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_34: -4095545887604790739
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_35: -379187430905775929
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_36: 7628749990666934722
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_37: 4985034526959371664
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_38: 6016467310061626169
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_39: 3027266242988717047
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_4: -5172576833931612908
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_40: 8305058181300998165
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_41: -3076161582214756238
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_42: -4321660486346625836
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_43: 4165535968415067946
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_44: -9146076552406590141
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_45: 8334299520806183479
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_46: 6936387621857934846
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_47: -1117280163416209741
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_48: 2220386354653191584
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_49: -273425822017241748
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_5: 3333605045963998665
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_6: 7137973191230749944
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_7: -2735423172140462449
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_8: -3265950270529621837
+      ChatGPT Image Jan 6, 2026, 02_06_32 PM_9: 1219253131299960168
+      Crate: -8943662548667361284
+      SlackLine: -3953259219707810236
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -8,6 +8,7 @@ public class LanderAudio : MonoBehaviour
     private void Awake()
     {
         lander = GetComponent<Lander>();
+        thrustAudioSource.volume = 0.5f;
         
     }
     private void Start()
@@ -17,6 +18,7 @@ public class LanderAudio : MonoBehaviour
         lander.OnLeftForce += Lander_OnLeftForce;
         lander.OnRightForce += Lander_OnRightForce;
         thrustAudioSource.Pause();
+        
     }
 
     private void Lander_OnRightForce(object sender, EventArgs e)

@@ -494,7 +494,7 @@ Transform:
   m_GameObject: {fileID: 235982416}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.8, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3781,7 +3781,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1919589442
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4247,7 +4247,6 @@ GameObject:
   - component: {fileID: 2099014108}
   - component: {fileID: 2099014109}
   - component: {fileID: 2099014110}
-  - component: {fileID: 2099014111}
   m_Layer: 0
   m_Name: Lander
   m_TagString: Untagged
@@ -4390,24 +4389,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LanderAudio
   thrustAudioSource: {fileID: 657344466}
---- !u!114 &2099014111
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2099014104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2afceb7c2a08525439cf0bdde8a1cc8f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CargoAttachment
-  cargoPrefab: {fileID: 5658211306362288011, guid: cc7391866839fe74baa9c41fff653146, type: 3}
-  attachPoint: {fileID: 235982417}
-  anchorTag: RopeAnchor
-  destroyOnDetach: 1
-  waitTime: 2
-  hasCargo: 0
 --- !u!1001 &5794713985378160772
 PrefabInstance:
   m_ObjectHideFlags: 0

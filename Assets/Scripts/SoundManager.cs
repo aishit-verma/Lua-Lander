@@ -19,23 +19,23 @@ public class SoundManager : MonoBehaviour
         switch(e.landingType)
         {
             case Lander.LandingType.Successful:
-                AudioSource.PlayClipAtPoint(successfulLandingSound, Camera.main.transform.position);
+                AudioSource.PlayClipAtPoint(successfulLandingSound, Camera.main.transform.position,0.5f);
                 break;
             case Lander.LandingType.Crashed:
             case Lander.LandingType.TooFast:
             case Lander.LandingType.TooSteepAngle:
-                AudioSource.PlayClipAtPoint(crashSound, Camera.main.transform.position);
+                AudioSource.PlayClipAtPoint(crashSound, Camera.main.transform.position,0.5f);
                 break;
         }
     }
 
     private void Lander_OnCoinPickup(object sender, EventArgs e)
     {
-        AudioSource.PlayClipAtPoint(coinPickupSound, Camera.main.transform.position);
+        AudioSource.PlayClipAtPoint(coinPickupSound, Camera.main.transform.position,0.5f);
     }
 
     private void Lander_OnFuelPickup(object sender, EventArgs e)
     {
-        AudioSource.PlayClipAtPoint(fuelPickupSound, Camera.main.transform.position);
+        AudioSource.PlayClipAtPoint(fuelPickupSound, Camera.main.transform.position,0.5f);
     }
 }
