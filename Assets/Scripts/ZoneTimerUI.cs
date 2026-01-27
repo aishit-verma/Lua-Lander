@@ -16,7 +16,6 @@ public class ZoneTimerUI : MonoBehaviour
     
     private void Awake()
     {
-        // Auto-get Image component if not assigned
         if (fillImage == null)
         {
             fillImage = GetComponent<Image>();

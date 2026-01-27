@@ -50,7 +50,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1669829634926997435, guid: 6914c2ce1e162db45b51c9fa6901d25a, type: 3}
       propertyPath: m_Name
-      value: LandingPad
+      value: LandingPad_x5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2916348613996647071, guid: 6914c2ce1e162db45b51c9fa6901d25a, type: 3}
+      propertyPath: scoreMultiplier
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6957600312198942492, guid: 6914c2ce1e162db45b51c9fa6901d25a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6957600312198942492, guid: 6914c2ce1e162db45b51c9fa6901d25a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6957600312198942492, guid: 6914c2ce1e162db45b51c9fa6901d25a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6957600312198942492, guid: 6914c2ce1e162db45b51c9fa6901d25a, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

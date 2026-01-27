@@ -24,6 +24,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Drop
       objectReference: {fileID: 0}
+    - target: {fileID: 5151193498632577688, guid: 361f943c8d8dc6447b735596056485fa, type: 3}
+      propertyPath: cargoPrefab
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6017637284271594971, guid: 361f943c8d8dc6447b735596056485fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

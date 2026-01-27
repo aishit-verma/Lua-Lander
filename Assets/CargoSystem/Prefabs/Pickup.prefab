@@ -102,6 +102,7 @@ GameObject:
   - component: {fileID: 6017637284271594971}
   - component: {fileID: 5975548542692566739}
   - component: {fileID: -5070484367413374350}
+  - component: {fileID: 5151193498632577688}
   m_Layer: 0
   m_Name: Pickup
   m_TagString: Pick
@@ -177,6 +178,33 @@ MonoBehaviour:
   fillImage: {fileID: 6699852975261114811}
   fillUp: 1
   hideWhenInactive: 1
+--- !u!114 &5151193498632577688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3844241915932494051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00f73aa4b48557740a08a2a894ddd794, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ZoneIdentifier
+  acceptedCargoID: Regular
+  cargoPrefab: {fileID: 5658211306362288011, guid: cc7391866839fe74baa9c41fff653146, type: 3}
+  zoneIndicator: {fileID: 0}
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  matchColor: {r: 0, g: 1, b: 0, a: 1}
+  mismatchColor: {r: 1, g: 0, b: 0, a: 1}
+  OnCargoPickedUp:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCargoDropped:
+    m_PersistentCalls:
+      m_Calls: []
+  OnWrongCargoType:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &3951215873219884042
 GameObject:
   m_ObjectHideFlags: 0

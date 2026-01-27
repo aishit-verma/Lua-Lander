@@ -642,7 +642,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: -0.00000047683716, y: 0.00000023841858, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1660,6 +1660,8 @@ MonoBehaviour:
   gameLevels:
   - {fileID: 9109026530593734169, guid: 39d7c63c4e597a34da4fbd522f001d1b, type: 3}
   - {fileID: 9109026530593734169, guid: 3730fe7ffb59f6e459525b77c4ee0b9f, type: 3}
+  - {fileID: 9109026530593734169, guid: 68c0301aecb279246affb67b7123fbf7, type: 3}
+  - {fileID: 9109026530593734169, guid: aa814ccf2f7915542bfa29131f089a7a, type: 3}
   cinemachineCamera: {fileID: 1209888897}
 --- !u!4 &1026747487
 Transform:
@@ -2284,7 +2286,7 @@ Transform:
   m_GameObject: {fileID: 1209888895}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: -0.00000047683716, y: 0.00000023841858, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3781,7 +3783,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1919589442
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4250,7 +4252,7 @@ GameObject:
   - component: {fileID: 2099014111}
   m_Layer: 0
   m_Name: Lander
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4402,12 +4404,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2afceb7c2a08525439cf0bdde8a1cc8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CargoAttachment
-  cargoPrefab: {fileID: 5658211306362288011, guid: cc7391866839fe74baa9c41fff653146, type: 3}
   attachPoint: {fileID: 235982417}
   anchorTag: RopeAnchor
-  destroyOnDetach: 1
   waitTime: 2
-  hasCargo: 0
 --- !u!1001 &5794713985378160772
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4416,9 +4415,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1363277970318124285, guid: 259bd637df5ebdf4a8b6cfa1f117f4f6, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4109173522889999069, guid: 259bd637df5ebdf4a8b6cfa1f117f4f6, type: 3}
       propertyPath: m_Name
       value: MusicManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 4109173522889999069, guid: 259bd637df5ebdf4a8b6cfa1f117f4f6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4579298609016416407, guid: 259bd637df5ebdf4a8b6cfa1f117f4f6, type: 3}
       propertyPath: m_LocalPosition.x

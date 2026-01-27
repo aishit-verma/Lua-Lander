@@ -4,19 +4,23 @@ using UnityEngine;
 public class CargoAttachment : MonoBehaviour
 {
     [Header("References")]
-    [SerializeField] private GameObject cargoPrefab;
     [SerializeField] private Transform attachPoint;
     [SerializeField] private string anchorTag = "RopeAnchor";
 
     [Header("Settings")]
-    [SerializeField] private bool destroyOnDetach = false;
     [SerializeField] private float waitTime = 2f;
 
-    [Header("State")]
-    public bool hasCargo = false;
+    // Public state
+    public bool HasCargo => hasCargo;
+    public string CurrentCargoID => currentCargoID;
+    
+    // Private state
+    private bool hasCargo = false;
+    private string currentCargoID = "";
     private bool isInPickupZone = false;
     private bool isInDropZone = false;
 
+    // References
     private Rigidbody2D landerRb;
     private GameObject currentCargo;
     private HingeJoint2D anchorJoint;
@@ -28,7 +32,7 @@ public class CargoAttachment : MonoBehaviour
         landerRb = GetComponent<Rigidbody2D>();
     }
 
-    public void AttachCargo()
+    public void AttachCargo(GameObject cargoPrefab, string cargoID)
     {
         if (hasCargo || cargoPrefab == null) return;
 
@@ -48,12 +52,16 @@ public class CargoAttachment : MonoBehaviour
                 anchorJoint.autoConfigureConnectedAnchor = false;
                 anchorJoint.anchor = Vector2.zero;
                 anchorJoint.connectedAnchor = transform.InverseTransformPoint(attachPoint.position);
+                
                 hasCargo = true;
+                currentCargoID = cargoID;
+                
+                Debug.Log($"Picked up: {cargoID}");
             }
         }
     }
 
-    public void DetachCargo()
+    public void DetachCargo(bool destroyCargo = false)
     {
         if (!hasCargo || currentCargo == null) return;
 
@@ -63,13 +71,17 @@ public class CargoAttachment : MonoBehaviour
             anchorJoint.connectedBody = null;
         }
 
-        
+        if (destroyCargo && currentCargo != null)
+        {
             Destroy(currentCargo);
-            GameManager.Instance.AddScore(100);
-      
+        }
+
+        Debug.Log($"Dropped: {currentCargoID}");
+
         currentCargo = null;
         anchorJoint = null;
         hasCargo = false;
+        currentCargoID = "";
     }
 
     private Transform FindAnchorInCargo(GameObject cargo)
@@ -87,35 +99,49 @@ public class CargoAttachment : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Handle Pickup Zone
+        ZoneIdentifier zone = collision.GetComponent<ZoneIdentifier>();
+        if (zone == null) return;
+
+        // Pickup Zone
         if (collision.CompareTag("Pick") && !hasCargo)
         {
             isInPickupZone = true;
             
-            if (currentCoroutine != null) 
+            if (currentCoroutine != null)
             {
                 StopCoroutine(currentCoroutine);
             }
             
-            // Find and start timer UI
+            zone.ShowMatchFeedback();
+            
             currentZoneTimer = collision.GetComponentInChildren<ZoneTimerUI>();
             if (currentZoneTimer != null)
             {
                 currentZoneTimer.StartFill(waitTime);
             }
             
-            currentCoroutine = StartCoroutine(PickupCoroutine(collision.gameObject));
+            currentCoroutine = StartCoroutine(PickupCoroutine(collision.gameObject, zone));
         }
 
-        // Handle Drop Zone
+        // Drop Zone
         if (collision.CompareTag("Drop") && hasCargo)
         {
+            // Check if zone accepts our cargo
+            if (!zone.AcceptsCargo(currentCargoID))
+            {
+                zone.ShowMismatchFeedback();
+                Debug.Log($"Wrong cargo! Zone wants: {zone.AcceptedCargoID}, You have: {currentCargoID}");
+                return;
+            }
+            
             isInDropZone = true;
             
-            if (currentCoroutine != null) 
+            if (currentCoroutine != null)
             {
                 StopCoroutine(currentCoroutine);
             }
+            
+            zone.ShowMatchFeedback();
             
             currentZoneTimer = collision.GetComponentInChildren<ZoneTimerUI>();
             if (currentZoneTimer != null)
@@ -123,18 +149,19 @@ public class CargoAttachment : MonoBehaviour
                 currentZoneTimer.StartFill(waitTime);
             }
             
-            currentCoroutine = StartCoroutine(DropCoroutine(collision.gameObject));
+            currentCoroutine = StartCoroutine(DropCoroutine(collision.gameObject, zone));
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        // Handle leaving Pickup Zone
+        ZoneIdentifier zone = collision.GetComponent<ZoneIdentifier>();
+
         if (collision.CompareTag("Pick"))
         {
             isInPickupZone = false;
             
-            if (currentCoroutine != null) 
+            if (currentCoroutine != null)
             {
                 StopCoroutine(currentCoroutine);
             }
@@ -144,14 +171,18 @@ public class CargoAttachment : MonoBehaviour
                 currentZoneTimer.StopFill();
                 currentZoneTimer = null;
             }
+            
+            if (zone != null)
+            {
+                zone.ResetVisualFeedback();
+            }
         }
 
-        // Handle leaving Drop Zone
         if (collision.CompareTag("Drop"))
         {
             isInDropZone = false;
             
-            if (currentCoroutine != null) 
+            if (currentCoroutine != null)
             {
                 StopCoroutine(currentCoroutine);
             }
@@ -161,30 +192,37 @@ public class CargoAttachment : MonoBehaviour
                 currentZoneTimer.StopFill();
                 currentZoneTimer = null;
             }
+            
+            if (zone != null)
+            {
+                zone.ResetVisualFeedback();
+            }
         }
     }
 
-    private IEnumerator PickupCoroutine(GameObject zone)
+    private IEnumerator PickupCoroutine(GameObject zoneObject, ZoneIdentifier zone)
     {
         yield return new WaitForSeconds(waitTime);
         
         if (isInPickupZone && !hasCargo)
         {
-            AttachCargo();
-            Destroy(zone);
+            AttachCargo(zone.CargoPrefab, zone.AcceptedCargoID);
+            zone.OnCargoPickedUp?.Invoke();
+            Destroy(zoneObject);
         }
         
         currentZoneTimer = null;
     }
 
-    private IEnumerator DropCoroutine(GameObject zone)
+    private IEnumerator DropCoroutine(GameObject zoneObject, ZoneIdentifier zone)
     {
         yield return new WaitForSeconds(waitTime);
         
         if (isInDropZone && hasCargo)
         {
-            DetachCargo();
-            Destroy(zone);
+            DetachCargo(true);
+            zone.OnCargoDropped?.Invoke();
+            Destroy(zoneObject);
         }
         
         currentZoneTimer = null;
