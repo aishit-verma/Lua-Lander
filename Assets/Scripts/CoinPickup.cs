@@ -1,10 +1,16 @@
 using UnityEngine;
+using Unity.Cinemachine;
 
 public class CoinPickup : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private CinemachineImpulseSource impulseSource;
+    private void Awake()
+    {
+        impulseSource = GetComponent<CinemachineImpulseSource>();
+    }
     public void DestroySelf()
     {
         Destroy(gameObject);
+        CameraShakeManager.instance.CameraShake(impulseSource);
     }
 }
